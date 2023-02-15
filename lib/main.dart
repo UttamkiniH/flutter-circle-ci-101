@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Circle CI',
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.orange,
       ),
       home: const HomePage(),
     );
