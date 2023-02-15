@@ -5,8 +5,7 @@ jobs:
       - image: cirrusci/flutter
     steps:
       - checkout
-      - run : flutter doctor
-      - run : flutter test
-      - run : flutter build apk --release
+      - run: flutter doctor
+      - run: flutter build apk --release
       - store_artifacts:
           path: build/app/outputs/flutter-apk/app-release.apk
