@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Circle CI Demo',
+      title: 'Flutter Circle CI',
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
